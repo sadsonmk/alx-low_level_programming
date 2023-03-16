@@ -8,3 +8,5 @@ The file 3-name is a script that compiles a C file and creates an executable nam
 
 The file 4-puts.c is for using the puts function to output text.
 
+The file 6-size.c is for printing the size of various types of data on the computer it is compiled and run on.
+
