@@ -6,3 +6,5 @@ The file 2-assembler is for generating the assembly code of a C code and save it
 
 The file 3-name is a script that compiles a C file and creates an executable named cisfun.
 
+The file 4-puts.c is for using the puts function to output text.
+
