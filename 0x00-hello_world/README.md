@@ -10,3 +10,5 @@ The file 4-puts.c is for using the puts function to output text.
 
 The file 6-size.c is for printing the size of various types of data on the computer it is compiled and run on.
 
+The file 100-intel is for generating the assembly code (Intel syntax) of a C code and save it in an output file.
+
