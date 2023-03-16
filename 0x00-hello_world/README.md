@@ -12,3 +12,5 @@ The file 6-size.c is for printing the size of various types of data on the compu
 
 The file 100-intel is for generating the assembly code (Intel syntax) of a C code and save it in an output file.
 
+The file 101-quote.c is for printing text to the standard error stream.
+
