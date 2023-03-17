@@ -22,3 +22,5 @@ The file 9-print_comb.c is for printing all possible combinations of single-digi
 
 The file 100-print_comb3.c is a program that prints all possible different combinations of two digits.
 
+The file 101-print_comb4.c is for a program that prints all possible different combinations of three digits.
+
