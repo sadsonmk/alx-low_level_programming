@@ -8,3 +8,5 @@ The file 2-print_alphabet.c is for printing the alphabet in lowercase, followed 
 
 The file 3-print_alphabets.c is for printing the lowercase and uppercase alphabet letters.
 
+The file 4-print_alphabt.c is for printing the alphabet in lowercas, ommitting the letter q and e.
+
