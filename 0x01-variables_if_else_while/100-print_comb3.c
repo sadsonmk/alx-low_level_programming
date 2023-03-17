@@ -23,11 +23,11 @@ int main(void)
 				putchar(num2);
 
 				if (num == '8' && num2 == '9')
-				{
+				
 					continue;
-					putchar(44);
-					putchar(32);
-				}
+					putchar(',');
+					putchar(' ');
+				
 
 			}
 		}
