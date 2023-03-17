@@ -13,3 +13,6 @@ The file 4-print_alphabt.c is for printing the alphabet in lowercas, ommitting t
 The file 5-print_numbers.c is for printing numbers 0-9.
 
 The file 6-print_numberz.c is for printing numbers 0-9 using the function putchar.
+
+The file 7-print_tebahpla.c is for a reverse lowercase alphabet.
+
