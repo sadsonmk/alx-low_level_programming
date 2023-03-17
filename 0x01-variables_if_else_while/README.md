@@ -16,3 +16,5 @@ The file 6-print_numberz.c is for printing numbers 0-9 using the function putcha
 
 The file 7-print_tebahpla.c is for a reverse lowercase alphabet.
 
+The file 8-print_base16.c is for printing the hexadecimal numbers.
+
