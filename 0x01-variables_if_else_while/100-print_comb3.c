@@ -25,9 +25,9 @@ int main(void)
 				if (num == '8' && num2 == '9')
 				{
 					continue;
-					putchar(',');
-					putchar(' ');
 				}
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
