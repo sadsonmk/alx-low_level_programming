@@ -12,7 +12,7 @@ int main(void)
 	int hex = 48;
 	int hex2 = 97;
 
-	while (hex < 73)
+	while (hex < 58)
 	{
 		putchar(hex);
 
@@ -20,7 +20,7 @@ int main(void)
 
 	}
 
-	while (hex2 < 105)
+	while (hex2 < 103)
 	{
 		putchar(hex2);
 
