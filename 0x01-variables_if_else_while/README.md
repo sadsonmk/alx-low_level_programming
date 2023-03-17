@@ -10,3 +10,6 @@ The file 3-print_alphabets.c is for printing the lowercase and uppercase alphabe
 
 The file 4-print_alphabt.c is for printing the alphabet in lowercas, ommitting the letter q and e.
 
+The file 5-print_numbers.c is for printing numbers 0-9.
+
+The file 6-print_numberz.c is for printing numbers 0-9 using the function putchar.
