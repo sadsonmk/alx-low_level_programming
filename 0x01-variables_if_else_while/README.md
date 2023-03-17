@@ -20,3 +20,5 @@ The file 8-print_base16.c is for printing the hexadecimal numbers.
 
 The file 9-print_comb.c is for printing all possible combinations of single-digit numbers.
 
+The file 100-print_comb3.c is a program that prints all possible different combinations of two digits.
+
