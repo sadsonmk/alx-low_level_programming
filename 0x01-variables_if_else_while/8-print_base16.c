@@ -10,17 +10,22 @@
 int main(void)
 {
 	int hex = 48;
+	int hex2 = 97;
 
 	while (hex < 73)
 	{
 		putchar(hex);
 
 		hex++;
-		if (hex > 57 && hex < 65)
-		{
-			continue;
-			hex++;
-		}
+
+	}
+
+	while (hex2 < 105)
+	{
+		putchar(hex2);
+
+		hex2++;
+
 	}
 	putchar('\n');
 
