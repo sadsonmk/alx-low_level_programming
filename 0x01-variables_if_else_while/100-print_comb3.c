@@ -13,7 +13,7 @@ int main(void)
 
 	int num, num2;
 
-	for (num = 48; num < 58; num++)
+	for (num = '0'; num < '9'; num++)
 	{
 		for (num2 = num + 1; num2 < '9' ; num2++)
 		{
