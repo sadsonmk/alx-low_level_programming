@@ -28,3 +28,6 @@ The file 100-times_table.c is for printing the time table of n.
 
 The file 101-natural.c is for printing all the multiples of 3 or 5 below 1024 (excluded), followed by a new line.
 
+The file 102-fibonacci.c is for printing the first 50 Fibonacci numbers, starting with 1 and 2, followed by a new line.
+
+
