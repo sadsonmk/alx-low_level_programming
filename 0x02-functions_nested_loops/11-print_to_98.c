@@ -18,6 +18,7 @@ void print_to_98(int n)
 		{
 		printf("%d", n);
 		printf("\n");
+		break;
 
 		}
 		else
@@ -38,6 +39,7 @@ void print_to_98(int n)
 		{
 			printf("%d", n);
 			printf("\n");
+			break;
 		}
 		else
 		{
