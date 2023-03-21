@@ -13,10 +13,10 @@
 
 int main(void)
 {
-	char alphabet[10] = "_putchar";
+	char alphabet[9] = "_putchar";
 	int i;
 
-	for (i = 0; i < 10; i++)
+	for (i = 0; i < 9; i++)
 	{
 		_putchar(alphabet[i]);
 	}
