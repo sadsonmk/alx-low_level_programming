@@ -25,7 +25,6 @@ void print_times_table(int n)
 			_putchar(num5 + '0');
 			_putchar(num4 + '0');
 			}
-
 			else
 			{
 				if (num2 != 0)
@@ -45,6 +44,5 @@ void print_times_table(int n)
 	else
 	{
 		return;
-	}
 	}
 }
