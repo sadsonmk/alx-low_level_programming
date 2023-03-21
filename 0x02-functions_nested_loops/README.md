@@ -24,4 +24,5 @@ The file 10-add.c is for adding two numbers.
 
 The file 11-print_to_98.c is for printing from n to 98.
 
+The file 100-times_table.c is for printing the time table of n.
 
