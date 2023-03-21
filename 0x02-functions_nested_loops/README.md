@@ -30,4 +30,6 @@ The file 101-natural.c is for printing all the multiples of 3 or 5 below 1024 (e
 
 The file 102-fibonacci.c is for printing the first 50 Fibonacci numbers, starting with 1 and 2, followed by a new line.
 
+The file 103-fibonacci.c is for printing the sum of fibonnacci numbers under 4 million.
+
 
