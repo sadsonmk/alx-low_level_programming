@@ -7,12 +7,12 @@
 
 int main(void)
 {
-	long int first = 1;
-	long int second = 2;
+	unsigned long int first = 1;
+	unsigned long int second = 2;
 
 	int counter = 3;
 
-	long int next_number = first + second;
+	unsigned long int next_number = first + second;
 
 	printf("%lu, ", first);
 	printf("%lu, ", second);
