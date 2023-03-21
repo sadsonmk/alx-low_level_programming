@@ -22,6 +22,11 @@ void print_times_table(int n)
 			{
 				_putchar(' ');
 			}
+			if (num3 <= 9)
+			{
+				_putchar(' ');
+
+			}
 			if (num3 >= 100)
 			{
 				_putchar((num3 / 100) + '0');
