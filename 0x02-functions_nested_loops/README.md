@@ -12,3 +12,6 @@ File 4-isalpha.c is for checking for alphabetic character.
 
 File 5-print_sign.c is for printing the sign of a number.
 
+The file 6-abs.c is for printing absolute values of integers.
+
+
