@@ -41,5 +41,12 @@ int _islower(int c);
 
 int _isalpha(int c);
 
+/**
+ * print_sign - prints the sign of a number
+ * @n: The number to check
+ * Return: 1 and +, if 0,0 and 0, else - and 1
+ */
+
+int print_sign(int n);
 
 #endif

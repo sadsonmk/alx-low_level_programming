@@ -10,3 +10,5 @@ File 3-islower.c is for a function that checks for lowercase character.
 
 File 4-isalpha.c is for checking for alphabetic character.
 
+File 5-print_sign.c is for printing the sign of a number.
+
