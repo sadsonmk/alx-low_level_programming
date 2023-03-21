@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - prints the lowercase alphabet
+ * print_alphabet_x10 - prints the lowercase alphabet
  * while loop - loop construct
  * _putchar - writes characters to the stdio
  *
