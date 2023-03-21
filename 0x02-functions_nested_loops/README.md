@@ -26,3 +26,5 @@ The file 11-print_to_98.c is for printing from n to 98.
 
 The file 100-times_table.c is for printing the time table of n.
 
+The file 101-natural.c is for printing all the multiples of 3 or 5 below 1024 (excluded), followed by a new line.
+
