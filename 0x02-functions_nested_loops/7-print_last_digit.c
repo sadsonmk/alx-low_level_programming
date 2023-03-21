@@ -13,7 +13,8 @@ int print_last_digit(int num)
 
 	if (r < 0)
 	{
-		_putchar('0' + -(r));
+		r = (r * -2) + r;
+		_putchar('0' + r);
 
 	}
 
@@ -23,6 +24,6 @@ int print_last_digit(int num)
 		_putchar('0' + r);
 	}
 
-	return ((int)(r));
+	return (r);
 }
 
