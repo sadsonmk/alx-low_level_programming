@@ -8,4 +8,5 @@ File 2-print_alphabet_x10.c is for printing the lowercase alphabet 10 times.
 
 File 3-islower.c is for a function that checks for lowercase character.
 
+File 4-isalpha.c is for checking for alphabetic character.
 
