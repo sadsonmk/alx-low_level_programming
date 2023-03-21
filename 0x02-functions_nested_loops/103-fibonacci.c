@@ -16,15 +16,11 @@ int main(void)
 
 	long int next_number = first + second;
 
-	printf("%lu, ", first);
-	printf("%lu, ", second);
-
 	while (next_number <= 4000000)
 	{
 
 		if (next_number % 2 == 0)
 		{
-			printf("%lu, ", next_number);
 			counter += next_number;
 
 		}
