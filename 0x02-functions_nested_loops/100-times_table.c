@@ -17,7 +17,7 @@ void print_times_table(int n)
 		{
 			_putchar(',');
 			_putchar(' ');
-			num3 = num1 * num2
+			num3 = num1 * num2;
 			if (num3 <= 99)
 			{
 				_putchar(' ');
