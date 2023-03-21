@@ -12,7 +12,7 @@ int main(void)
 	long int first = 1;
 	long int second = 2;
 
-	int counter = 0;
+	long int counter = 0;
 
 	long int next_number = first + second;
 
