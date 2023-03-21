@@ -18,4 +18,6 @@ The fiel 7-print_last_digit is for printing the last digit of a number.
 
 The file 8-24_hours.c is for printing every minute of the day from 00:00 to 23:59.
 
+The file 9-times_table is for printing the 9 times table.
+
 
