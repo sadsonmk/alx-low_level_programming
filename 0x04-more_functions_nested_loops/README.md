@@ -14,4 +14,6 @@ File 5-more_numbers.c is for printing 10 times numbers 0-14.
 
 File 6-print_line.c is for printing lines in the terminal.
 
+File 7-print_diagonal.c is for printing diagonal lines on the terminal.
+
 
