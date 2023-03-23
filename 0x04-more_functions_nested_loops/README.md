@@ -20,3 +20,5 @@ File 8-print_square.c is for printing a square, followed by a new line.
 
 File 10-print_triangle.c is for printing a triangle, followed by a new line.
 
+File 100-prime_factor.c is for printing the largest prime factor of the number 612852475143.
+
