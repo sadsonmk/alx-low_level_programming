@@ -22,3 +22,4 @@ File 10-print_triangle.c is for printing a triangle, followed by a new line.
 
 File 100-prime_factor.c is for printing the largest prime factor of the number 612852475143.
 
+File 101-print_number.c is for printing integers using _putchar and some recursion.

@@ -89,4 +89,11 @@ void print_square(int size);
 
 void print_triangle(int size);
 
+/**
+ * print_number - uses _putchar to print an integer
+ * @n: is the number to be printed
+ * Return: void
+ */
+
+void print_number(int n);
 #endif /* MAIN_H */
