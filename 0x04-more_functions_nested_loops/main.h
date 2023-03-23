@@ -17,4 +17,14 @@ int _isupper(int c);
 
 int _isdigit(int c);
 
+/**
+ * mul - multiplies two numbers
+ * @a: is the first number
+ * @b: is the second number
+ * Return: the result of the multiplication
+ */
+
+int mul(int a, int b);
+
+
 #endif /* MAIN_H */
