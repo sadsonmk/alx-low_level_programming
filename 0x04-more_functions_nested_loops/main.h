@@ -56,5 +56,13 @@ void print_most_numbers(void);
 
 void more_numbers(void);
 
+/**
+ * print_line - draws a straight line in the terminal
+ * @n: number of times to print the _
+ * Return: void
+ */
+
+void print_line(int n);
+
 
 #endif /* MAIN_H */
