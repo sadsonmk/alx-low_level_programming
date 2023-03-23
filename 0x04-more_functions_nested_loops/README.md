@@ -18,4 +18,5 @@ File 7-print_diagonal.c is for printing diagonal lines on the terminal.
 
 File 8-print_square.c is for printing a square, followed by a new line.
 
+File 10-print_triangle.c is for printing a triangle, followed by a new line.
 
