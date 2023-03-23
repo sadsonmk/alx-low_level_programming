@@ -16,4 +16,6 @@ File 6-print_line.c is for printing lines in the terminal.
 
 File 7-print_diagonal.c is for printing diagonal lines on the terminal.
 
+File 8-print_square.c is for printing a square, followed by a new line.
+
 
