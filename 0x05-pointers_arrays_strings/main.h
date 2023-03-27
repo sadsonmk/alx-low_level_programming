@@ -9,7 +9,7 @@
  * Return: returns 98
  *
  */
-reset_to_98(int *n);
+void reset_to_98(int *n);
 
 
 
