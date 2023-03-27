@@ -81,4 +81,15 @@ void puts2(char *str);
 void puts_half(char *str);
 
 
+/**
+ * print_array - prints n elements of an array of ints and a new line.
+ * @a: is the array
+ * @n: number of elements in the array
+ * Return: void
+ */
+
+
+void print_array(int *a, int n);
+
+
 #endif /* MAIN_H */
