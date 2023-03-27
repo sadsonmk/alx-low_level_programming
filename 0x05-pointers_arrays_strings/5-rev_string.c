@@ -33,10 +33,6 @@ void rev_string(char *s)
 
 	}
 
-	for (b = 0; b < len; b++)
-	{
-		_putchar(s[b]);
-	}
 
 	_putchar('\n');
 }
