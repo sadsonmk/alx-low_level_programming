@@ -9,7 +9,9 @@
 
 void rev_string(char *s)
 {
-	int len, b;
+	char temporary;
+
+	int len, b, start, end;
 
 	len = 0;
 
@@ -18,9 +20,23 @@ void rev_string(char *s)
 		len++;
 	}
 
-	for (b = len - 1; b >= 0; b--)
+	end = len - 1;
+	start = 0;
+
+	for (b = start; b < end; b++)
+	{
+		temporary = s[b];
+		s[b] = s[end];
+		s[end] = temporary;
+
+		end--;
+
+	}
+
+	for (b = 0; b < len; b++)
 	{
 		_putchar(s[b]);
 	}
+
 	_putchar('\n');
 }
