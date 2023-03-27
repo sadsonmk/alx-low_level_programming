@@ -11,6 +11,15 @@
  */
 void reset_to_98(int *n);
 
+/**
+ * swap_int - swaps the value of two integers
+ * @a: the first parameter
+ * @b: the second parameter
+ * Return: returns void
+ */
+void swap_int(int *a, int *b);
+
+
 
 
 #endif /* MAIN_H */
