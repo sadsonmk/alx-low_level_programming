@@ -20,9 +20,9 @@ void print_rev(char *s)
 
 	for (a = 0; a < len / 2; a++)
 	{
-		temporary = s[b];
-		s[b] = s[len - b - 1];
-		s[len - b - 1] = temporary;
+		temporary = s[a];
+		s[a] = s[len - a - 1];
+		s[len - a - 1] = temporary;
 	}
 	_putchar('\n');
 }
