@@ -10,7 +10,9 @@
 
 char *_strcpy(char *dest, char *src)
 {
+	int dest;
 	*dest = *src;
-	return (*dest);
+	dest = *dest
+	return (dest);
 }
 
