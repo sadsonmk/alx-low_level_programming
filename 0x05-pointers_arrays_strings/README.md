@@ -20,4 +20,6 @@ The file 8-print_array.c prints n elements of an array of integers, followed by 
 
 The file 9-strcpy.c copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
 
+The file 100-atoi.c is a function that convert a string to an integer.
+
 
