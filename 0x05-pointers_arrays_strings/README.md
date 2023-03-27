@@ -10,4 +10,6 @@ The file 3-puts.c is a function that prints a string, followed by a new line, to
 
 The file 4-print_rev.c is a function that prints a string, in reverse, followed by a new line.
 
+The file 5-rev_string.c is for reversing a string.
+
 
