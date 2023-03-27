@@ -17,7 +17,7 @@ void _puts(char *str)
 	{
 		len++;
 	}
-	write(1, str, len);
+	fwrite(1, str, len);
 	_putchar('\n');
 
 }
