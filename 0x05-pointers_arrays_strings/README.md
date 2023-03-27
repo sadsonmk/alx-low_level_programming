@@ -12,4 +12,6 @@ The file 4-print_rev.c is a function that prints a string, in reverse, followed 
 
 The file 5-rev_string.c is for reversing a string.
 
+The file 6-puts2.c is a function that prints every other character of a string, starting with the first character, followed by a new line.
+
 
