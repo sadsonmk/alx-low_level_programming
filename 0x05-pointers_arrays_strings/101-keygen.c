@@ -24,14 +24,14 @@ int main(void)
 	{
 		password[x] = rand() % 60;
 		sum += (password[x] + '0');
-		_putchar(password[x] + '0');
+		putchar(password[x] + '0');
 
 		if ((2000 - sum) - '0' < 60)
 		{
 			y = 2000 - sum - '0';
 
-			sum += y
-			_putchar(y + '0');
+			sum += y;
+			putchar(y + '0');
 			break;
 
 		}
