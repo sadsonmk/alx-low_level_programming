@@ -3,6 +3,15 @@
 
 #include <stdio.h>
 
+
+/**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ * Return: On success 1
+ * On error -1 is returned
+ */
+int _putchar(char c);
+
 /**
  * reset_to_98 - updates the value it points to to 98
  * @n: an int pointer
@@ -20,6 +29,13 @@ void reset_to_98(int *n);
 void swap_int(int *a, int *b);
 
 
+/**
+ * _strlen - returns  the length of a string
+ * @s: is the string to check the length
+ * Return: returns the length of a string
+ */
+
+int _strlen(char *s);
 
 
 #endif /* MAIN_H */
