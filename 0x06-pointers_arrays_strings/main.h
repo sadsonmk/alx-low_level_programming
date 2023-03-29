@@ -15,5 +15,15 @@
 char *_strcat(char *dest, char *src);
 
 
+/**
+ * _strncat - concatenates two strings.
+ * @src: is the source string
+ * @dest: is tje destination string
+ * @n: number of bytes
+ * Return: a pointer to the resulting string dest
+ */
+
+char *_strncat(char *dest, char *src, int n);
+
 
 #endif /* MAIN_H */
