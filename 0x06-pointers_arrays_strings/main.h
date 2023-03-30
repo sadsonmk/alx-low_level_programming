@@ -116,4 +116,14 @@ void print_number(int n);
 
 char *infinite_add(char *n1, char *n2, char *r, int size_r);
 
+/**
+ * print_buffer - prints a buffer
+ * @b: is the buffer
+ * @size: size of the buffer
+ * Return: void
+ */
+
+
+void print_buffer(char *b, int size);
+
 #endif /* MAIN_H */

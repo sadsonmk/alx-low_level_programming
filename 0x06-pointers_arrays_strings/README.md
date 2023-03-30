@@ -24,4 +24,6 @@ The file 102-magic.c is for adding one line to this code, so that the program pr
 
 The file 103-infinite_add.c is a function that adds two numbers.
 
+The file 104-print_buffer.c is a function that prints a buffer.
+
 
