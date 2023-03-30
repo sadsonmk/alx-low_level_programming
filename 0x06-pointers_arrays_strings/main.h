@@ -80,4 +80,12 @@ char *cap_string(char *string);
 
 char *leet(char *n);
 
+/**
+ * rot13 - encodes a string using rot13
+ * @str: is the value input
+ * Return: returns the encoded str
+ */
+
+char *rot13(char *str);
+
 #endif /* MAIN_H */

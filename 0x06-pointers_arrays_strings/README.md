@@ -16,4 +16,6 @@ The file 6-cap_string.c capitalizes all words of a string.
 
 The file 7-leet.c encodes a string into 1337.
 
+The file 100-rot13.c encodes a string into rot13.
+
 
