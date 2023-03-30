@@ -14,7 +14,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 	int x, y, sum, value, overflow, val1, val2;
 
-	x = y = sum = 0;
+	x = y = sum = value = val1 = val2 = 0;
 
 	while (*(n1 + x) != '\0')
 		x++;
