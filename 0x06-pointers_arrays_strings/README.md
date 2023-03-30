@@ -6,4 +6,6 @@ The file 1-strncat.c is for concatenating two strings.
 
 The file 2-strncpy.c is for copying a string.
 
+The file 3-strcmp.c is for comparing strings.
+
 
