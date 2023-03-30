@@ -25,5 +25,16 @@ char *_strcat(char *dest, char *src);
 
 char *_strncat(char *dest, char *src, int n);
 
+/**
+ * _strncpy - copies a string
+ * @src: is the source string to be copied
+ * @dest: is the destination string
+ * @n: number of bytes
+ * Return: a pointer to the destination string
+ */
+
+
+char *_strncpy(char *dest, char *src, int n);
+
 
 #endif /* MAIN_H */
