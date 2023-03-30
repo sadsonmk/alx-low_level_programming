@@ -14,4 +14,6 @@ The file 5-string_toupper.c changes all lowercase letters of a string to upperca
 
 The file 6-cap_string.c capitalizes all words of a string.
 
+The file 7-leet.c encodes a string into 1337.
+
 

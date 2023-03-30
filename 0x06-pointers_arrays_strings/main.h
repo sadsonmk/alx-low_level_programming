@@ -72,4 +72,12 @@ char *string_toupper(char *n);
 
 char *cap_string(char *string);
 
+/**
+ * leet - encodes a string into 1337
+ * @n: is the value you input
+ * Return: returns n
+ */
+
+char *leet(char *n);
+
 #endif /* MAIN_H */
