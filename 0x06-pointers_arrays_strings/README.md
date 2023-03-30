@@ -8,4 +8,6 @@ The file 2-strncpy.c is for copying a string.
 
 The file 3-strcmp.c is for comparing strings.
 
+The file 4-rev_array.c is for reversing an array.
+
 
