@@ -103,4 +103,17 @@ char *rot13(char *str);
 
 void print_number(int n);
 
+
+/**
+ * infinite_add - adds two numbers
+ * @n1: the first number to add
+ * @n2: the second number to add
+ * @r: the buffer that the function will use to store the result
+ * @size_r: is the buffer size
+ * Return: returns a pointer to the result
+ */
+
+
+char *infinite_add(char *n1, char *n2, char *r, int size_r);
+
 #endif /* MAIN_H */

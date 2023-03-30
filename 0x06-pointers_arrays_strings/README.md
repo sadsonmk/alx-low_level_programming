@@ -21,3 +21,7 @@ The file 100-rot13.c encodes a string into rot13.
 The file 101-print_number.c prints numbers using _putchar.
 
 The file 102-magic.c is for adding one line to this code, so that the program prints a[2] = 98, followed by a new line.
+
+The file 103-infinite_add.c is a function that adds two numbers.
+
+
