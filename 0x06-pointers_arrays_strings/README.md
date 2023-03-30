@@ -18,4 +18,6 @@ The file 7-leet.c encodes a string into 1337.
 
 The file 100-rot13.c encodes a string into rot13.
 
+The file 101-print_number.c prints numbers using _putchar.
+
 
