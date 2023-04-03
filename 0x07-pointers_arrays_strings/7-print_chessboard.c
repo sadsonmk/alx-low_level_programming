@@ -12,6 +12,8 @@ void print_chessboard(char (*a)[8])
 {
 	int x, y;
 
+	x = y = 0;
+
 	while (x < 8)
 	{
 		while (y < 8)
