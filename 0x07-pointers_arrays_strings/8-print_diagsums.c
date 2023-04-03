@@ -22,8 +22,10 @@ void print_diagsums(int *a, int size)
 		total1 += *num1;
 	}
 
-	for (num2 = (a + 0) + 4; num2 < (a + size - 1) + (size - 1) * size; num2 += size - 1)
+	for (num2 = (a + 0); num2 <= (a + size - 1); num2 += size - 1)
 	{
+		if (num2 == (a + 0)
+				continue;
 
 		total2 += *num2;
 	}
