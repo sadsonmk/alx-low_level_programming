@@ -12,11 +12,11 @@
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	int i;
+	int i, x;
 
 	i = 0;
 
-	int x = n;
+	x = n;
 
 	while (x > i)
 	{
