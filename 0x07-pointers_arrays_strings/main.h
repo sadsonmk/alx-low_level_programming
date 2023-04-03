@@ -4,6 +4,14 @@
 #include <stdio.h>
 
 /**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ * Return: On success 1
+ * On error -1 is returned
+ */
+int _putchar(char c);
+
+/**
  * _memset - fills memory with a constant byte.
  * @s: pointer to a memory area
  * @b: a constant byte
@@ -60,5 +68,12 @@ char *_strpbrk(char *s, char *accept);
 
 char *_strstr(char *haystack, char *needle);
 
+/**
+ * print_chessboard - prints the chessboard.
+ * @a: is an array of characters
+ * Return: void
+ */
+
+void print_chessboard(char (*a)[8]);
 
 #endif /* MAIN_H */

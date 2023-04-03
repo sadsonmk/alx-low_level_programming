@@ -12,4 +12,6 @@ File 4-strpbrk.c is a function that searches a string for any of a set of bytes.
 
 File 5-strstr.c is a function that locates a substring.
 
+File 7-print_chessboard.c is a function that prints the chessboard.
+
 
