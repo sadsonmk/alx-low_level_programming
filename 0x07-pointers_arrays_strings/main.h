@@ -13,5 +13,23 @@
 
 char *_memset(char *s, char b, unsigned int n);
 
+/**
+ * _memcpy - copies memory area.
+ * @dest: memory area to be copied to
+ * @src: memory area to copy from
+ * @n: bytes of memory to be copied
+ * Return: a pointer to dest
+ */
+
+char *_memcpy(char *dest, char *src, unsigned int n);
+
+/**
+ * _strchr - locates a character in a string.
+ * @s: is the string to be checked
+ * @c: is the character to locate
+ * Return: pointer to the first occurrence of the character c
+ */
+
+char *_strchr(char *s, char c);
 
 #endif /* MAIN_H */
