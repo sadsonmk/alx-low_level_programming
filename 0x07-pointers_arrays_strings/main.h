@@ -41,5 +41,13 @@ char *_strchr(char *s, char c);
 
 unsigned int _strspn(char *s, char *accept);
 
+/**
+ * _strpbrk - searches a string for any of a set of bytes.
+ * @s: is the string to scanned
+ * @accept: is the string to be matched
+ * Return: pointer to the byte in s that matches one of the bytes in accept
+ */
+
+char *_strpbrk(char *s, char *accept);
 
 #endif /* MAIN_H */
