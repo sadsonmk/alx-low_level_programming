@@ -13,19 +13,19 @@ void print_diagsums(int *a, int size)
 {
 	int total1, total2;
 
-	int *num1;
+	int *num;
 
 	int *num2;
 
-	for (num1 = (a + 0) + 0; num1 <= (a + size - 1) + (size) * size; num1 += size + 1)
+	for (num = (a + 0); num <= (a + size - 1) + (size) * size; num += size + 1)
 	{
-		total1 += *num1;
+		total1 += *num;
 	}
 
 	for (num2 = (a + 0); num2 <= (a + size - 1); num2 += size - 1)
 	{
-		if (num2 == (a + 0)
-				continue;
+		if (num2 == (a + 0))
+			continue;
 
 		total2 += *num2;
 	}
