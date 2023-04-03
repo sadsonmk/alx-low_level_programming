@@ -76,4 +76,15 @@ char *_strstr(char *haystack, char *needle);
 
 void print_chessboard(char (*a)[8]);
 
+
+/**
+ * print_diagsums - sum of the two diagonals of a square matrix of integers.
+ * @a: is the input array
+ * @size: size of the array
+ * Return: void
+ */
+
+void print_diagsums(int *a, int size);
+
+
 #endif /* MAIN_H */

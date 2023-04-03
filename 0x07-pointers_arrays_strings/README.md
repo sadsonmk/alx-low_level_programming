@@ -14,4 +14,6 @@ File 5-strstr.c is a function that locates a substring.
 
 File 7-print_chessboard.c is a function that prints the chessboard.
 
+File 8-print_diagsums.c is a function that prints the sum of the two diagonals of a square matrix of integers.
+
 
