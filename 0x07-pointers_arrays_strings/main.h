@@ -50,4 +50,15 @@ unsigned int _strspn(char *s, char *accept);
 
 char *_strpbrk(char *s, char *accept);
 
+/**
+ * _strstr - locates a substring.
+ * @haystack: is the string to be scanned
+ * @needle: is the string to be matched
+ * Return: a pointer to the beginning of the located substring
+ */
+
+
+char *_strstr(char *haystack, char *needle);
+
+
 #endif /* MAIN_H */
