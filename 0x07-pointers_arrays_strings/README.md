@@ -18,4 +18,5 @@ File 8-print_diagsums.c is a function that prints the sum of the two diagonals o
 
 File 100-set_string.c is a function that sets the value of a pointer to a char.
 
+File 101-crackme_password is a file that contains the password for the crackme2 executable.
 
