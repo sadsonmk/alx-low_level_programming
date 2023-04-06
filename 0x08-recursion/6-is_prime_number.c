@@ -36,7 +36,7 @@ int real_prime(int n, int i)
 	}
 	else
 	{
-		return real_prime(n, i - 1);
+		return (real_prime(n, i - 1));
 	}
 }
 
