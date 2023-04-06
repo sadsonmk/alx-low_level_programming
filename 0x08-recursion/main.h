@@ -54,4 +54,31 @@ int factorial(int n);
 
 int _pow_recursion(int x, int y);
 
+/**
+ * _sqrt_recursion - returns the natural square root of a number.
+ * @n: the iput number
+ * Return: returns the square root
+ */
+
+int _sqrt_recursion(int n);
+
+/**
+ * is_prime_number - returns 1 if the input integer is a prime number
+ * @n: the input number
+ * Return: return 1 if prime else 0
+ */
+
+int is_prime_number(int n);
+
+
+/**
+ * real_prime - calculates a prime recursively
+ * @n: input number
+ * @i: is the iterator
+ * Return: returns 1 if prime else 0
+ */
+
+int real_prime(int n, int i);
+
+
 #endif /* MAIN_H */
