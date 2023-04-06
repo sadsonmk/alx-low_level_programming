@@ -9,25 +9,38 @@
 
 int _sqrt_recursion(int n)
 {
-	int x;
 
-	x = n;
-
-	n--;
-
-	if (n <= 0)
+	if (n < 0)
 		return (-1);
 
-	else if (n == 1)
-		return (1);
-	else if (n * n == x)
+	else
 	{
-		x = x / _sqrt_recursion(n);
-		return (x);
+		return (real_sqrt_recursion(n, 0));
 	}
-	else 
+}
+
+/**
+ * real_sqrt_recursion - find the natural square root of a number
+ * @n: the input number
+ * @i: the iterator
+ * Return: the square of n
+ */
+
+int real_sqrt_recursion(int n, int i)
+{
+	if (i * i > n)
 	{
 		return (-1);
+	}
+
+	if (i * i == n)
+	{
+		return (i);
+	}
+
+	else
+	{
+		return (real_sqrt_recursion(n, i + 1));
 	}
 }
 

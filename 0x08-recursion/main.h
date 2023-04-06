@@ -81,4 +81,14 @@ int is_prime_number(int n);
 int real_prime(int n, int i);
 
 
+/**
+ * real_sqrt_recursion - find the natural square root of a number
+ * @n: the input number
+ * @i: the iterator
+ * Return: the square of n
+ */
+
+int real_sqrt_recursion(int n, int i);
+
+
 #endif /* MAIN_H */
