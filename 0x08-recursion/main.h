@@ -90,5 +90,22 @@ int real_prime(int n, int i);
 
 int real_sqrt_recursion(int n, int i);
 
+/**
+ * is_palindrome - returns 1 if a string is a palindrome and 0 if not.
+ * @s: is the input string
+ * Return: 1 if s is palindrome else 0
+ */
+
+int is_palindrome(char *s);
+
+/**
+ * pal_recursion - checks a for palindrome
+ * @s: the input string
+ * @start: the starting point of the string
+ * @end: the end of the string - equates to length
+ * Return: 1 if s is a palindrome else 0
+ */
+
+int pal_recursion(char *s, int start, int end);
 
 #endif /* MAIN_H */

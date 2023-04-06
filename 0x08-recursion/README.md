@@ -14,4 +14,6 @@ The file 5-sqrt_recursion.c is a function that returns the natural square root o
 
 The file 6-is_prime_number.c is a function that returns 1 if the input integer is a prime number, otherwise return 0.
 
+The file 100-is_palindrome.c is a function that returns 1 if a string is a palindrome and 0 if not.
+
 
