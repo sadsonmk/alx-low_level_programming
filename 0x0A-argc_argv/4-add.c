@@ -19,13 +19,18 @@ int main(int argc, char *argv[])
 		{
 			value = atoi(argv[counter]);
 
-			if (value <= 0)
+			if (value == 0)
 			{
 				printf("Error\n");
 				return (1);
 			}
 
 			total = total + value;
+
+			if (total < 0)
+			{
+				return (1);
+			}
 		}
 
 		printf("%d\n", total);
