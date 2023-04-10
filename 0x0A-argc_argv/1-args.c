@@ -10,7 +10,7 @@
 int main(int argc, char *argv[])
 {
 	int count_args;
-	
+
 	count_args = 0;
 	while (argc-- > 1 && argv)
 		count_args++;
