@@ -12,14 +12,14 @@ int main(int argc, char *argv[])
 	int count_args;
 
 
-	if (argc > 1)
+	if (argc > 1 && argv)
 	{
 		for(count_args = 1; count_args < argc; count_args++);
 		
 		printf("%d\n", count_args - 1);
 		
 	}
-	else if (argv[0])
+	else
 	{
 		printf("%d\n", 0);
 	}
