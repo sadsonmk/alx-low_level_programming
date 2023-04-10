@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 {
 	int counter, total, value;
 
-	if (argc > 1)
+	if (argc >= 1)
 	{
 		for (counter = 1; counter < argc; counter++)
 		{
