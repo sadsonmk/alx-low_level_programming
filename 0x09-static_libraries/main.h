@@ -180,6 +180,14 @@ int _isupper(int c);
  * Return: 1 if c is a digit, else 0
  */
 
-int _isdigit(int c)
+int _isdigit(int c);
+
+/**
+ * _atoi - converts numbers in a given string to an integer
+ * @s: is the string to convert
+ * Return: returns an integer
+ */
+
+int _atoi(char *s);
 
 #endif /* MAIN_H */
