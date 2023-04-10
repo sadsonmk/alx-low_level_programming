@@ -27,12 +27,14 @@ int main(int argc, char *argv[])
 				return (1);
 			}
 
-			total = total + value;
 
-			if (total < 0)
+			if (value < 0)
 			{
 				printf("%d\n", 0);
+				return (0);
 			}
+
+			total = total + value;
 		}
 
 		printf("%d\n", total);
