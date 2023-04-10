@@ -13,13 +13,13 @@ int main(int argc, char *argv[])
 {
 	int counter, total, value;
 
-	if (argc >= 1)
+	if (argc > 1)
 	{
 		for (counter = 1; counter < argc; counter++)
 		{
 			value = atoi(argv[counter]);
 
-			if (value <= 0)
+			if (value == 0)
 			{
 				printf("Error\n");
 				return (1);
@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
 		printf("%d\n", total);
 	}
 
-	else
+	else if (argc == 1)
 	{
 		printf("%d\n", 0);
 	}
