@@ -1,0 +1,5 @@
+The readme for the project 0x0A-argc_argv
+
+The file 0-whatsmyname.c is a program that prints its name, followed by a new line.
+
+
