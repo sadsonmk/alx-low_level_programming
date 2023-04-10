@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 
 
 /**
@@ -19,14 +20,15 @@ int main(int argc, char *argv[])
 	{
 		for (counter = 1; counter < argc; counter++)
 		{
-			value = atoi(argv[counter]);
 
-			if (value == 0)
+			if (!atoi(argv[counter]))
 			{
 				printf("Error\n");
 				return (1);
 			}
 
+
+			value = atoi(argv[counter]);
 
 			if (value < 0)
 			{
