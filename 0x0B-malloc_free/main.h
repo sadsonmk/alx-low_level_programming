@@ -21,5 +21,14 @@ int _putchar(char c);
 
 char *create_array(unsigned int size, char c);
 
+/**
+ * _strdup - a function that returns a pointer to a newly
+ *  allocated space in memory, which contains a
+ *  copy of the string given as a parameter.
+ *  @str: input string
+ *  Return: a pointer to an allocated space
+ */
+
+char *_strdup(char *str);
 
 #endif /* MAIN_H */
