@@ -18,6 +18,9 @@ char *_strdup(char *str)
 
 	len = i = 0;
 
+	if (str == NULL)
+		return (NULL);
+
 	while (str[i] != '\0')
 	{
 		len++;
@@ -26,7 +29,7 @@ char *_strdup(char *str)
 
 	dynamicArray = malloc(sizeof(char) * (len + 1));
 
-	if (dynamicArray == NULL || str == NULL)
+	if (dynamicArray == NULL)
 	{
 		return (NULL);
 	}
