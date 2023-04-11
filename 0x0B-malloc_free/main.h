@@ -50,4 +50,15 @@ char *str_concat(char *s1, char *s2);
 
 int **alloc_grid(int width, int height);
 
+
+/**
+ * free_grid - frees a 2 dimensional grid in the alloc_grid
+ * @grid: is the grid to free
+ * @height: is the height of the grid
+ * Return: void
+ */
+
+void free_grid(int **grid, int height);
+
+
 #endif /* MAIN_H */
