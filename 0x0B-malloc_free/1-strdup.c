@@ -39,5 +39,7 @@ char *_strdup(char *str)
 		j++;
 	}
 
+	free(dynamicArray);
+
 	return (dynamicArray);
 }
