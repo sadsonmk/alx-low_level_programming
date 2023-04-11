@@ -36,7 +36,5 @@ char *create_array(unsigned int size, char c)
 	}
 
 
-	free(dynamicArray);
-
-	return (dynamicArray);
+	return (0);
 }
