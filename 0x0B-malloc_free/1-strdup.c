@@ -24,7 +24,7 @@ char *_strdup(char *str)
 		i++;
 	}
 
-	dynamicArray = malloc(sizeof(char) * (len));
+	dynamicArray = malloc(sizeof(char) * (len + 1));
 
 	if (dynamicArray == NULL)
 	{
@@ -39,7 +39,7 @@ char *_strdup(char *str)
 		j++;
 	}
 
-	free(dynamicArray);
+
 
 	return (dynamicArray);
 }
