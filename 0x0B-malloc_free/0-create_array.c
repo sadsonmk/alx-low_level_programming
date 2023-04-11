@@ -17,7 +17,7 @@ char *create_array(unsigned int size, char c)
 	while (size > 0)
 	{
 
-	
+
 		dynamicArray = malloc(sizeof(char) * size);
 
 		if (dynamicArray == NULL)
@@ -29,8 +29,8 @@ char *create_array(unsigned int size, char c)
 		size--;
 	}
 
-		
-		
+
+
 	return (NULL);
-		
+
 }
