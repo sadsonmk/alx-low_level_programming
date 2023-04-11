@@ -12,11 +12,14 @@
 
 char *create_array(unsigned int size, char c)
 {
+	char *dynamicArray;
 
 	if (size > 0)
 	{
-		char *dynamicArray = malloc(sizeof(c) * size);
+		dynamicArray = malloc(sizeof(char) * size);
+		dynamicArray[0] = c;
 	}
+
 	else
 	{
 		return (NULL);
