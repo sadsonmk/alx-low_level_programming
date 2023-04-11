@@ -14,27 +14,23 @@ char *create_array(unsigned int size, char c)
 {
 	char *dynamicArray;
 
-	while (1)
+	while (size > 0)
 	{
 
-		if (size > 0)
+	
+		dynamicArray = malloc(sizeof(char) * size);
+
+		if (dynamicArray == NULL)
 		{
-			dynamicArray = malloc(sizeof(char) * size);
-
-			if (dynamicArray == NULL)
-			{
-				return (0);
-			}
-
-			dynamicArray[0] = c;
+			return (0);
 		}
 
-		else
-		{
-			return (NULL);
-		}
+		dynamicArray[0] = c;
+		size--;
 	}
 
-
-	return (0);
+		
+		
+	return (NULL);
+		
 }
