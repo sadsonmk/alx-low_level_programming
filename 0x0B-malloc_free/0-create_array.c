@@ -12,25 +12,31 @@
 
 char *create_array(unsigned int size, char c)
 {
-	char *dynamicArray;
+	char *dynamiArray;
 
-	while (size > 0)
+	unsigned int i;
+
+	dynamicArray = malloc(sizeof(char) * size);
+
+	if (dynamicArray == NULL || size == 0)
 	{
+		return (NULL);
+	}
 
+	else
+	{
+		i = 0;
 
-		dynamicArray = malloc(sizeof(char) * size);
-
-		if (dynamicArray == NULL)
+		while (i < size)
 		{
-			return (0);
+			dynamicArray[i] = c;
+
+			i++;
 		}
 
-		dynamicArray[0] = c;
-		size--;
 	}
 
 
-
-	return (NULL);
+	return (dynamicArray);
 
 }
