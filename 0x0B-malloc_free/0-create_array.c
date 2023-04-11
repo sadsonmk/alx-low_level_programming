@@ -12,7 +12,7 @@
 
 char *create_array(unsigned int size, char c)
 {
-	char *dynamiArray;
+	char *dynamicArray;
 
 	unsigned int i;
 
