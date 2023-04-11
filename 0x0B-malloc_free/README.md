@@ -6,4 +6,6 @@ The file 1-strdup.c is a function that returns a pointer to a newly allocated sp
 
 The file 2-str_concat.c is a function that concatenates two strings.
 
+The file 3-alloc_grid.c is a function that returns a pointer to a 2 dimensional array of integers.
+
 
