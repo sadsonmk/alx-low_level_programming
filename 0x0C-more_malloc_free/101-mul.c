@@ -11,7 +11,7 @@
 int main(int argc, char *argv[])
 {
 
-	unsigned long long int total, num1, num2;
+	unsigned long int total, num1, num2;
 
 	char *endptr;
 
@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
 
 	total = num1 * num2;
 
-	printf("%llu\n", total);
+	printf("%lu\n", total);
 
 	return (0);
 
