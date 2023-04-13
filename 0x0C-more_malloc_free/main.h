@@ -19,6 +19,14 @@ int _putchar(char c);
 
 void *malloc_checked(unsigned int b);
 
+/**
+ * string_nconcat -  concatenates two strings.
+ * @s1: input string
+ * @s2: input sring
+ * @n: number of bytes of s2
+ * Return: a pointer to newly allocated space
+ */
 
+char *string_nconcat(char *s1, char *s2, unsigned int n);
 
 #endif /* MAIN_H */
