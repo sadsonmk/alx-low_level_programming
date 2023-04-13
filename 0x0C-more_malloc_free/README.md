@@ -1,0 +1,3 @@
+This is the readme.md for the project 0x0C-more_malloc_free
+
+The file 0-malloc_checked.c is a function that allocates memory using malloc.
