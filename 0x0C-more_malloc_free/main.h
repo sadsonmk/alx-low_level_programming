@@ -29,4 +29,23 @@ void *malloc_checked(unsigned int b);
 
 char *string_nconcat(char *s1, char *s2, unsigned int n);
 
+/**
+ * _calloc - llocates memory for an array, using malloc.
+ * @nmemb: number of array elements
+ * @size: the size of each element
+ * Return: a pointer to the allocated memory.
+ */
+
+void *_calloc(unsigned int nmemb, unsigned int size);
+
+/**
+ * _memset - fills memory with a constant byte.
+ * @s: pointer to a memory area
+ * @b: a constant byte
+ * @n: number of bytes of memory to be filled
+ * Return: a pointer to the memory area s
+ */
+
+char *_memset(char *s, char b, unsigned int n);
+
 #endif /* MAIN_H */
