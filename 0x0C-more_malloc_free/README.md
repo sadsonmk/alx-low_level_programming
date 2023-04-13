@@ -8,4 +8,6 @@ The file 2-calloc.c is a function that allocates memory for an array, using mall
 
 The file 3-array_range.c is a function that creates an array of integers.
 
+The file 100-realloc.c is a function that reallocates a memory block using malloc and free
+
 
