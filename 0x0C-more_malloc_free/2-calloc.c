@@ -42,9 +42,9 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	dynamicptr = malloc(size * nmemb);
 
 	if (dynamicptr == NULL)
-		return(NULL);
+		return (NULL);
 
-	_memset(dynamicptr,0,nmemb * size);
+	_memset(dynamicptr, 0, nmemb * size);
 
 	return (dynamicptr);
 }
