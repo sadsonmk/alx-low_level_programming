@@ -48,4 +48,13 @@ void *_calloc(unsigned int nmemb, unsigned int size);
 
 char *_memset(char *s, char b, unsigned int n);
 
+/**
+ * array_range - creates an array of integers.
+ * @min: minimum range value
+ * @max: maximum range value
+ * Return: the pointer to the newly created array
+ */
+
+int *array_range(int min, int max);
+
 #endif /* MAIN_H */
