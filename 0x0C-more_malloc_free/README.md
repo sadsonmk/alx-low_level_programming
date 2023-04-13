@@ -10,4 +10,6 @@ The file 3-array_range.c is a function that creates an array of integers.
 
 The file 100-realloc.c is a function that reallocates a memory block using malloc and free
 
+The file 101-mul.c is a program that multiplies two positive numbers.
+
 
