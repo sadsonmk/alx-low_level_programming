@@ -3,6 +3,6 @@
 
 #include <stdio.h>
 
-#define ABS(x) ((x) < (0) ? ((x) * (x) / (-x)) : (x))
+#define ABS(x) ((x) < (0) ? ((x) * (-2) + (x)) : (x))
 
 #endif /* 3-function_like_macro.h */
