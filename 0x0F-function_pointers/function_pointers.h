@@ -21,8 +21,16 @@ int _putchar(char c);
 
 void print_name(char *name, void (*f)(char *));
 
+/**
+ * array_iterator - executes a function given as 
+ * a parameter on each element of an array
+ * @array: is the array input
+ * @size: are the elements to print
+ * @action: the pointer to a function
+ * Return: void
+ */
 
-
+void array_iterator(int *array, size_t size, void (*action)(int));
 
 
 
