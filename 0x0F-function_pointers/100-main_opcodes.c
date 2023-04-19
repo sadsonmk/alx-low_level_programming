@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
 		exit(2);
 	}
 
-	main_args = (char *)main;
+	main_args = (char *) main;
 
 	i = 0;
 
@@ -41,8 +41,9 @@ int main(int argc, char *argv[])
 			break;
 		}
 		i++;
+
+		printf("%02hhx", main_args[i]);
 	}
-	printf("%02hhx", main_args[i]);
 
 	return (0);
 }
