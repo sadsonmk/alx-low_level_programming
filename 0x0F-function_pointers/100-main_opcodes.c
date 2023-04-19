@@ -29,13 +29,13 @@ int main(int argc, char *argv[])
 		exit(2);
 	}
 
-	main_args = (char *) main;
+	main_args = (char *)main;
 
 	i = 0;
 
 	while (i < num_bytes)
 	{
-		if (i == bytes - 1)
+		if (i == num_bytes - 1)
 		{
 			printf("%02hhx\n", main_args[i]);
 			break;
