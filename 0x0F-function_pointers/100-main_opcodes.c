@@ -40,9 +40,9 @@ int main(int argc, char *argv[])
 			printf("%02hhx\n", main_args[i]);
 			break;
 		}
-		i++;
 
 		printf("%02hhx", main_args[i]);
+		i++;
 	}
 
 	return (0);
