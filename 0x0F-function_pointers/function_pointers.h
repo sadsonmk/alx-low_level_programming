@@ -33,5 +33,14 @@ void print_name(char *name, void (*f)(char *));
 void array_iterator(int *array, size_t size, void (*action)(int));
 
 
+/**
+ * int_index - searches for an integer
+ * @array: the array input
+ * @size: is the size of the array
+ * @cmp: the pointer to the function
+ * Return: index of the first element else -1
+ */
+
+int int_index(int *array, int size, int (*cmp)(int));
 
 #endif /* FUNCTION_POINTERS.H */
