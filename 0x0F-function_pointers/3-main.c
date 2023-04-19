@@ -1,6 +1,7 @@
 #include <stdio.h>
-#include "3-calc.h"
 #include <stdlib.h>
+#include "3-calc.h"
+
 /**
  * main - Entry point
  * @argc: argument count
@@ -9,7 +10,7 @@
  * Return: Always 0 (success)
  */
 
-int main(int __attribute__((__unused__)) argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int x, y;
 
