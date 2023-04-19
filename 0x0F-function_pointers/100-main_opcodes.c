@@ -41,7 +41,7 @@ int main(int argc, char *argv[])
 			break;
 		}
 
-		printf("%02hhx", main_args[i]);
+		printf("%02hhx ", main_args[i]);
 		i++;
 	}
 
