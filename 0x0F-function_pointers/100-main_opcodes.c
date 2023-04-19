@@ -42,7 +42,7 @@ int main(int argc, char *argv[])
 		}
 		i++;
 	}
-	printf("%02hhx\n", main_args[i]);
+	printf("%02hhx", main_args[i]);
 
 	return (0);
 }
