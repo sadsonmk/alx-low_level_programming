@@ -30,4 +30,13 @@ int sum_them_all(const unsigned int n, ...);
 
 void print_numbers(const char *separator, const unsigned int n, ...);
 
+/**
+ * print_strings - prints strings, followed by a new line.
+ * @separator: is the string to be printed between
+ * @n: number of strings passed to the function
+ * Return: void
+ */
+
+void print_strings(const char *separator, const unsigned int n, ...);
+
 #endif /* variadic_functions.h */
