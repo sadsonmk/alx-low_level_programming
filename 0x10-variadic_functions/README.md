@@ -6,4 +6,6 @@ The file 1-print_numbers.c is a function that prints numbers, followed by a new 
 
 The file 2-print_strings.c is a function that prints strings, followed by a new line.
 
+The file 3-print_all.c is a function that prints anything.
+
 

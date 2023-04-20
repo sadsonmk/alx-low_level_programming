@@ -39,4 +39,12 @@ void print_numbers(const char *separator, const unsigned int n, ...);
 
 void print_strings(const char *separator, const unsigned int n, ...);
 
+/**
+ * print_all - prints anything.
+ * @format: list of types of arguments passed to the function
+ * Return: void
+ */
+
+void print_all(const char * const format, ...);
+
 #endif /* variadic_functions.h */
