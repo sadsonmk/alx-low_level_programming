@@ -1,7 +1,10 @@
 #ifndef LISTS_H
 #define LISTS_H
 
+/* standard library */
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 /**
  * struct list_s - singly linked list
@@ -33,5 +36,14 @@ size_t print_list(const list_t *h);
  */
 
 size_t list_len(const list_t *h);
+
+/**
+ * add_node - adds a new node at the beginning of a list_t list.
+ * @head: pointer to the head pointer
+ * @str: the data in the node
+ * Return: a pointer to the new node
+ */
+
+list_t *add_node(list_t **head, const char *str);
 
 #endif /* lists_h */
