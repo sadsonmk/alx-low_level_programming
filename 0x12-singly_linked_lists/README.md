@@ -17,3 +17,8 @@ The file 4-free_list.c is a function that frees a list_t list.
 
 5. The Hare and the Tortoise
 The file 100-first.c is a function that prints You're beat! and yet, you must allow,\nI bore my house upon my back!\n before the main function is executed.
+
+6. Real programmers can write assembly code in any language
+The file 101-hello_holberton.asm is a 64-bit program in assembly that prints Hello, Holberton, followed by a new line.
+
+
