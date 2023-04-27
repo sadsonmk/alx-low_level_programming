@@ -12,4 +12,6 @@ The file 2-add_node.c is a function that adds a new node at the beginning of a l
 3. Add node at the end
 The file 3-add_node_end.c is a function that adds a new node at the end of a list_t list.
 
+4. Free list
+The file 4-free_list.c is a function that frees a list_t list.
 
