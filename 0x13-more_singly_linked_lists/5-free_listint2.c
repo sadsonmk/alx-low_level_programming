@@ -13,11 +13,11 @@ void free_listint2(listint_t **head)
 	while (current != NULL)
 	{
 		current = current->next;
-		
+
 		free(*head);
-		
+
 		*head = current;
-	
+
 	}
 }
 
