@@ -39,11 +39,11 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 
 	for (i = 0; i < idx - 1; i++)
 	{
-		assert(current != NULL);
+		if (current == NULL)
+			return (NULL);
 		current = current->next;
 	}
 
-	assert(current != NULL);
 	add_data(&(current->next), n);
 
 
