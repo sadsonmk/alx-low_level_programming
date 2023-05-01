@@ -46,9 +46,9 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 
 	if (current == NULL)
 		return (NULL);
-	
+
 	add_data(&(current->next), n);
-	
+
 
 
 	return (current);
