@@ -32,3 +32,16 @@ File 9-insert_nodeint.c is a function that inserts a new node at a given positio
 
 10. Delete at index
 File 10-delete_nodeint.c is a function that deletes the node at index index of a listint_t linked list.
+
+11. Reverse list
+File 100-reverse_listint.c is a function that reverses a listint_t linked list.
+
+12. Print (safe version)
+File 101-print_listint_safe.c is a function that prints a listint_t linked list.
+
+13. Free (safe version)
+File 102-free_listint_safe.c is a function that frees a listint_t list.
+
+14. Find the loop
+File 103-find_loop.c is a function that finds the loop in a linked list.
+
