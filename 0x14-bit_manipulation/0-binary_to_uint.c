@@ -1,25 +1,6 @@
 #include "main.h"
 
 /**
- * _atoi - converts a string to integer
- * @str: is the string input to be converted
- * Return: returns the converted number
- */
-
-int _atoi(const char *str)
-{
-	int i, num;
-
-	num = 0;
-
-	for (i = 0; *(str + i) >= '0' && *(str + i) <= '9'; i++)
-	{
-		num = 10 * num + (*(str + i) - '0');
-	}
-	return (num);
-}
-
-/**
  * binary_to_uint - converts a binary number
  * to an unsigned int
  * @b: is a pointer to a string of 0 and 1 chars
@@ -30,9 +11,9 @@ int _atoi(const char *str)
 
 unsigned int binary_to_uint(const char *b)
 {
-	int base, i;
+	int i;
 
-	unsigned int temp, rem, total;
+	unsigned int total;
 
 	total = 0;
 	base = 1;
@@ -42,21 +23,12 @@ unsigned int binary_to_uint(const char *b)
 		return (0);
 
 	for (i = 0; b[i]; i++)
+	{
 		if (b[i] < '0' || b[i] > '1')
 			return (0);
-	temp = _atoi(b);
-
-	while (temp)
-	{
-		rem = temp % 10;
-
-		temp = temp / 10;
-
-		total += rem * base;
-
-		base = base * 2;
-
+		total = 2 * total + (b[i] - '0');
 	}
+
 
 	return (total);
 }

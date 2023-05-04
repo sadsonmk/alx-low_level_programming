@@ -14,13 +14,6 @@
 int _putchar(char c);
 
 /**
- * _atoi - converts a string to integer
- * @str: is the string input to be converted
- * Return: returns the converted number
- */
-
-int _atoi(const char *str);
-/**
  * binary_to_uint - converts a binary number
  * to an unsigned int
  * @b: is a pointer to a string of 0 and 1 chars
