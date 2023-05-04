@@ -16,8 +16,6 @@ unsigned int binary_to_uint(const char *b)
 	unsigned int total;
 
 	total = 0;
-	base = 1;
-
 
 	if (b == NULL)
 		return (0);
