@@ -52,7 +52,7 @@ unsigned int binary_to_uint(const char *b)
 		total += rem * base;
 
 		base = base * 2;
-	
+
 	}
 
 	return (total);
