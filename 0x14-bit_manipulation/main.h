@@ -13,6 +13,15 @@
  */
 int _putchar(char c);
 
+
+/**
+ * _print_num - prints integers using _putchar
+ * @n: is the input number
+ * Return: void
+ */
+
+void _print_num(unsigned long int n);
+
 /**
  * binary_to_uint - converts a binary number
  * to an unsigned int
@@ -24,6 +33,22 @@ int _putchar(char c);
 
 unsigned int binary_to_uint(const char *b);
 
+/**
+ * print_binary - prints the binary representation of a number.
+ * @n: is the input number
+ * Return: void;
+ */
+
+void print_binary(unsigned long int n);
+
+/**
+ * get_bit - returns the value of a bit at a given index.
+ * @n: input number
+ * @index: is the index, starting from 0 of the bit you want to get
+ * Return: the value of the bit at index index or -1 if an error occured
+ */
+
+int get_bit(unsigned long int n, unsigned int index);
 
 
 #endif /* main.h */
