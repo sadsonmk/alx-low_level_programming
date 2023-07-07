@@ -53,12 +53,18 @@ int set_bit(unsigned long int *n, unsigned int index);
 int clear_bit(unsigned long int *n, unsigned int index);
 
 /**
- * flip_bits - the number of bits you would 
+ * flip_bits - the number of bits you would
  * need to flip to get from one number to another
  * @n: is an input number
  * @m: is another input number
  * Return: number of bits to flip
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m);
+
+/**
+ * get_endianness - checks the endianness of a computer
+ * Return: 0 if big endian, 1 if little endian
+ */
+int get_endianness(void);
 
 #endif /* main.h */
