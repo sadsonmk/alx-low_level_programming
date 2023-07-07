@@ -21,5 +21,11 @@ int _putchar(char c);
  */
 unsigned int binary_to_uint(const char *b);
 
+/**
+ * print_binary - prints the binary representation of a number
+ * @n: is the input
+ * Return: void return
+ */
+void print_binary(unsigned long int n);
 
 #endif /* main.h */
