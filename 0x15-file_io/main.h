@@ -1,6 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#define EI_NIDENT 16
 /* standard library */
 #include <stdio.h>
 #include <unistd.h>
