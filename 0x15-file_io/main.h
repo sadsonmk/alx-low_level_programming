@@ -6,6 +6,7 @@
 #include <unistd.h>
 #include <fcntl.h>
 #include <stdlib.h>
+#include <elf.h>
 
 /**
  * _putchar - writes the character c to stdout
