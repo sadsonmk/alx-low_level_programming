@@ -6,6 +6,9 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <fcntl.h>
+
+#define ELF_HEADER_SIZE 64
+
 /**
  * _putchar - writes the character c to stdout
  * @c: The character to print

@@ -24,7 +24,7 @@ void file_close(int fd)
 
 /**
  * create_buffer - Allocation of bytes to a buffer
- * @file: The name of the file 
+ * @file: The name of the file
  * Return: Pointer to the allocated buffer
  */
 char *create_buffer(char *file)
@@ -66,7 +66,7 @@ int main(int argc, char *argv[])
 	file_to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC | O_APPEND, 0664);
 
 	do {
-			
+
 		if (file_from == -1 || file_read == -1)
 		{
 			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
