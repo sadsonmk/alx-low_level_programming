@@ -92,5 +92,14 @@ int sum_dlistint(dlistint_t *head);
 
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);
 
+/**
+ * delete_dnodeint_at_index - deletes a node at specified index
+ * @head: is the pointer to the beginning of the list
+ * @index: is the position of the node to be deleted
+ * Return: 1 if it succeeded, -1 if it failed
+ */
+
+int delete_dnodeint_at_index(dlistint_t **head, unsigned int index);
+
 
 #endif /* lists.h file */
