@@ -47,4 +47,13 @@ size_t dlistint_len(const dlistint_t *h);
 
 dlistint_t *add_dnodeint(dlistint_t **head, const int n);
 
+/**
+ * add_dnodeint_end - adds a new node at the end of a dlistint_t list
+ * @head: is a double pointer to the start of the list
+ * @n: is the data on each node
+ * Return: the address of the new element, or NULL if it failed
+ */
+
+dlistint_t *add_dnodeint_end(dlistint_t **head, const int n);
+
 #endif /* lists.h file */
