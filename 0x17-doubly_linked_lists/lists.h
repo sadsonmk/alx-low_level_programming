@@ -82,5 +82,15 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index);
 
 int sum_dlistint(dlistint_t *head);
 
+/**
+ * insert_dnodeint_at_index - inserts a node at a given index
+ * @h: is a double pointer to the head
+ * @idx: is the index where to insert the node
+ * @n: is the data to be inserted
+ * Return: the address of the new node, or NULL if it failed
+ */
+
+dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);
+
 
 #endif /* lists.h file */
