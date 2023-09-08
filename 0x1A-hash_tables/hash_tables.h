@@ -4,6 +4,7 @@
 /*standard library */
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 /*data structures */
 
@@ -62,6 +63,16 @@ unsigned long int hash_djb2(const unsigned char *str);
  */
 
 unsigned long int key_index(const unsigned char *key, unsigned long int size);
+
+/**
+ * hash_table_set - a function that adds an element to the hash table
+ * @ht: is the hash table you want to add or update the key/value to
+ * @key:  is the key to be added
+ * @value: is the value associated with the key
+ * Return: 1 if it succeeded, 0 otherwise
+ */
+
+int hash_table_set(hash_table_t *ht, const char *key, const char *value);
 
 
 #endif /* hash_tables.h */
