@@ -93,5 +93,14 @@ char *hash_table_get(const hash_table_t *ht, const char *key);
 void hash_table_print(const hash_table_t *ht);
 
 
+/**
+ * hash_table_delete - a function that deletes a hash table
+ * @ht: is a pointer to the hash table
+ * Return: void
+ */
+
+void hash_table_delete(hash_table_t *ht);
+
+
 
 #endif /* hash_tables.h */
