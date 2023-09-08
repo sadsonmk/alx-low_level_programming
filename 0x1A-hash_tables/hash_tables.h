@@ -54,4 +54,14 @@ hash_table_t *hash_table_create(unsigned long int size);
 
 unsigned long int hash_djb2(const unsigned char *str);
 
+/**
+ * key_index - a function that gives you the index of a key
+ * @key: is the key(the input string)
+ * @size: is the size of the array of the hash table
+ * Return: the index to store the value in the hash table
+ */
+
+unsigned long int key_index(const unsigned char *key, unsigned long int size);
+
+
 #endif /* hash_tables.h */
