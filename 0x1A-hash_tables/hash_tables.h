@@ -83,4 +83,15 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value);
 
 char *hash_table_get(const hash_table_t *ht, const char *key);
 
+
+/**
+ * hash_table_print - a function that prints a hash table
+ * @ht: is the hash table
+ * Return: void
+ */
+
+void hash_table_print(const hash_table_t *ht);
+
+
+
 #endif /* hash_tables.h */
