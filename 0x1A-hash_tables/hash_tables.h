@@ -46,5 +46,12 @@ typedef struct hash_table_s
 hash_table_t *hash_table_create(unsigned long int size);
 
 
+/**
+ * hash_djb2 - a hash function implementing the djb2 algorithm
+ * @str: is the input string
+ * Return: a long integer which is a hash number
+ */
+
+unsigned long int hash_djb2(const unsigned char *str);
 
 #endif /* hash_tables.h */
