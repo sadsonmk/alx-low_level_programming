@@ -8,6 +8,9 @@ NAME = school
 all: $(OBJ)
 	$(CC) -o $(NAME) $(OBJ)
 
+.PHONY: recompile
+recompile:
+	make -t
 clean:
 	rm -f $(OBJ) $(NAME)
 %.o : %.c
