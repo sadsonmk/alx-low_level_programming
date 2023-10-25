@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 """defines a function that measures an island perimeter"""
 
+
 def island_perimeter(grid):
     """returns the perimeter of the island described in grid
-        
+
     Args:
         grid (list): is a list of list of integers
                 0 represents a water zone
