@@ -1,15 +1,12 @@
-# Makefile for the school executable
+#  Makefile for the school executable
 
 CC = gcc
 SRC = $(wildcard *.c)
-OBJ = $(wildcard *.o)
+OBJ = $(SRC:.c=.o)
 NAME = school
 
 all: $(OBJ)
-	$(CC) -o $(NAME) $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
 
-.PHONY: recompile
-recompile:
-	make -t
-%.o : %.c
+%.o: %.c
 	$(CC) -c $< -o $@
