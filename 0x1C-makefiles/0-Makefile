@@ -1,0 +1,4 @@
+# Makefile for the school executable
+
+all:
+	gcc -o school main.c school.c
