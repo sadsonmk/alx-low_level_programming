@@ -1,0 +1,8 @@
+# Makefile for the school executable
+
+CC := gcc
+SRC := $(wildcard *.c)
+
+
+all:
+	$(CC) $(SRC) -o school
