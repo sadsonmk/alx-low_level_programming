@@ -13,17 +13,16 @@ int binary_search(int *array, size_t size, int value)
 {
 	size_t i, mid, low = 0;
 	size_t high = size - 1;
-	char sep;
+	char *sep;
 
 	while (low <= high)
 	{
 		printf("Searching in array: ");
 		for (i = low; i <= high; i++)
 		{
-			sep = (i < high) ? ',' : ' ';
-			printf("%d%c ", array[i], sep);
+			sep = (i < high) ? ", " : "\n";
+			printf("%d%s", array[i], sep);
 		}
-		printf("\n");
 
 		mid = (low + high) / 2;
 
